@@ -1,7 +1,0 @@
-FROM adminer:latest
-
-WORKDIR /app
-
-EXPOSE 8001
-
-CMD ["sh", "-c", "npm install && npx nodemon src/index.ts"]
